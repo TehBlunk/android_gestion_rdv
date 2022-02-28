@@ -28,6 +28,7 @@
         android:backgroundTint="#4CAF50"
         android:foregroundTint="#A57979"
         android:text="Connexion"
+        android:textColor="#3A3737"
         app:iconTint="#515050"
         app:rippleColor="#000000"
         tools:layout_editor_absoluteX="360dp"
