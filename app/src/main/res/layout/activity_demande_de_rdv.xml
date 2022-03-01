@@ -12,55 +12,72 @@
         android:id="@+id/button7"
         android:layout_width="254dp"
         android:layout_height="64dp"
+        android:layout_marginEnd="44dp"
         android:backgroundTint="#4CAF50"
         android:text="Chercher un médecin?"
         android:textColor="#3A3737"
-        tools:layout_editor_absoluteX="629dp"
-        tools:layout_editor_absoluteY="150dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.273" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="128dp"
         android:layout_height="43dp"
+        android:layout_marginStart="156dp"
         android:text="Médecin :"
         android:textColor="#8BC34A"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="171dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/spinner2"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="102dp"
         android:layout_height="44dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="88dp"
         android:text="Service :"
         android:textColor="#8BC34A"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="93dp" />
+        app:layout_constraintEnd_toStartOf="@+id/spinner"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="351dp"
         android:layout_height="57dp"
+        android:layout_marginEnd="288dp"
+        android:layout_marginBottom="52dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="-"
         android:textColor="#4CAF50"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="499dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="148dp"
         android:layout_height="67dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginBottom="44dp"
         android:text="Précision à apporter"
         android:textColor="#8BC34A"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="489dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName5"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView11"
@@ -70,28 +87,36 @@
         android:textColor="#8BC34A"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="246dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.201"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.569" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="257dp"
         android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
         android:text="Connecté en "
         android:textColor="#8BC34A"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="680dp"
-        tools:layout_editor_absoluteY="23dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="434dp"
         android:layout_height="30dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="20dp"
         android:text="Mes Rendez-vous : Demande de Rendez-vous"
         android:textColor="#8BC34A"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="26dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CalendarView
         android:id="@+id/calendarView"
@@ -105,25 +130,33 @@
         android:unfocusedMonthDateColor="#CDBCBC"
         android:weekNumberColor="#3A3737"
         android:weekSeparatorLineColor="#3A3737"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="231dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="245dp"
         android:layout_height="45dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="372dp"
         android:background="#4CAF50"
         android:dropDownSelector="@drawable/abc_vector_test"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="92dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="245dp"
         android:layout_height="45dp"
+        android:layout_marginEnd="372dp"
+        android:layout_marginBottom="388dp"
         android:background="#4CAF50"
         android:dropDownSelector="@drawable/abc_vector_test"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="168dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
