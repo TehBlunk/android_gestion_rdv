@@ -7,6 +7,26 @@
     android:background="#3A3737"
     tools:context=".ui.main.Accueil">
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="208dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Afficher un RDV"
+        android:textColor="#3A3737"
+        tools:layout_editor_absoluteX="377dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="208dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Afficher mes RDV"
+        android:textColor="#3A3737"
+        tools:layout_editor_absoluteX="377dp"
+        tools:layout_editor_absoluteY="222dp" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="257dp"
@@ -17,6 +37,16 @@
         tools:layout_editor_absoluteX="66dp"
         tools:layout_editor_absoluteY="24dp" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="257dp"
+        android:layout_height="30dp"
+        android:text="Connecté en "
+        android:textColor="#8BC34A"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="680dp"
+        tools:layout_editor_absoluteY="23dp" />
+
     <Button
         android:id="@+id/button2"
         android:layout_width="208dp"
@@ -26,4 +56,14 @@
         android:textColor="#3A3737"
         tools:layout_editor_absoluteX="377dp"
         tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="208dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Annuler un RDV"
+        android:textColor="#3A3737"
+        tools:layout_editor_absoluteX="377dp"
+        tools:layout_editor_absoluteY="403dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
