@@ -3,8 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Symfony/Outlast_RDV/android_gestion_rdv/app/src/main/res/layout/activity_accueil.xml" value="0.1793478260869565" />
+        <entry key="..\:/Symfony/Outlast_RDV/android_gestion_rdv/app/src/main/res/layout/activity_affichage_tous.xml" value="0.25" />
+        <entry key="..\:/Symfony/Outlast_RDV/android_gestion_rdv/app/src/main/res/layout/activity_demande_de_rdv.xml" value="0.25" />
+        <entry key="..\:/Symfony/Outlast_RDV/android_gestion_rdv/app/src/main/res/layout/activity_main.xml" value="0.12158054711246201" />
+        <entry key="..\:/Symfony/Outlast_RDV/android_gestion_rdv/app/src/main/res/layout/fragment_main.xml" value="0.25" />
         <entry key="..\:/Users/pierr/AndroidStudioProjects/android_gestion_rdv/app/src/main/res/layout/activity_accueil.xml" value="0.25" />
         <entry key="..\:/Users/pierr/AndroidStudioProjects/android_gestion_rdv/app/src/main/res/layout/activity_affichage_tous.xml" value="0.25" />
+        <entry key="..\:/Users/pierr/AndroidStudioProjects/android_gestion_rdv/app/src/main/res/layout/activity_demande_de_rdv.xml" value="0.25" />
+        <entry key="..\:/Users/pierr/AndroidStudioProjects/android_gestion_rdv/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/pierr/AndroidStudioProjects/android_gestion_rdv/app/src/main/res/layout/fragment_main.xml" value="0.25" />
         <entry key="..\:/Users/sio2021/AndroidStudioProjects/Gestion_rdv/app/src/main/res/layout/fragment_main.xml" value="0.1" />
         <entry key="..\:/Users/sio2021/AndroidStudioProjects/android_gestion_rdv/app/src/main/res/layout/activity_accueil.xml" value="0.33" />
         <entry key="..\:/Users/sio2021/AndroidStudioProjects/android_gestion_rdv/app/src/main/res/layout/activity_affichage_tous.xml" value="0.22" />
