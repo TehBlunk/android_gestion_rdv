@@ -9,37 +9,32 @@ import com.google.android.material.tabs.TabLayout;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
 
-import com.example.gestion_rdv.ui.main.SectionsPagerAdapter;
-import com.example.gestion_rdv.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
-
-    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
 
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(binding.getRoot());
+    }
 
-        SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = binding.viewPager;
-        viewPager.setAdapter(sectionsPagerAdapter);
-        TabLayout tabs = binding.tabs;
-        tabs.setupWithViewPager(viewPager);
-        FloatingActionButton fab = binding.fab;
+    Button conn = findViewById(R.id.btnConn);
+    conn.setOnClickListener(new View.OnClickListener(){
+        @Override
+        public void onClick(View v){
+            EditText login = findViewById(R.id.txtLogin);
+            EditText mdp = findViewById(R.id.txtMdp);
+            String sLogin = login.getText().toString();
+            String sMdp = mdp.getText().toString();
+        }
+    });
 
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+    public void onClick(View v){
+
     }
 }
