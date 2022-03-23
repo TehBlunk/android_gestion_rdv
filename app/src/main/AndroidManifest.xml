@@ -12,12 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Gestion_rdv">
-        <activity
-            android:name=".ui.main.demande_de_rdv"
-            android:exported="false" />
-        <activity
-            android:name=".ui.main.Accueil"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
