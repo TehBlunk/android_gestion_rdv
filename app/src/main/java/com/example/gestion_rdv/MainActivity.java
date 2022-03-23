@@ -127,24 +127,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-    /*@Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
-        Button conn = findViewById(R.id.btnConn);
-        conn.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                EditText login = findViewById(R.id.txtLogin);
-                EditText mdp = findViewById(R.id.txtMdp);
-                String sLogin = login.getText().toString();
-                String sMdp = mdp.getText().toString();
-            }
-        });
-    }*/
-
-
-
 }
